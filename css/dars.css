@@ -1,0 +1,30 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: test;
+    animation-duration: 5s; 
+    position: relative;
+    animation-iteration-count: 1;
+    /* animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in; */
+    animation-fill-mode: forwards;
+    /* animation-direction: reverse; */
+
+
+}
+@keyframes test{
+    0%{ background-color: bisque; left: 0px;}
+    20%{ background-color: rgb(196, 200, 255); left: 0; top: 300px;}
+    30%{ background-color: rgb(255, 196, 252);}
+    40%{ background-color: rgb(209, 40, 68); }
+    50%{ background-color: rgb(26, 145, 214);left: 680px; top: 300px; width: 200px; height: 200px;}
+    60%{ background-color: rgb(116, 150, 23); }
+    70%{ background-color: rgb(26, 14, 201);}
+    80%{ background-color: rgb(236, 240, 14); left: 680px; bottom:300px; width: 80px; height: 80px;}
+    90%{ background-color: rgb(77, 9, 73);}
+    100%{ background-color: rgb(46, 8, 37); left: 0; top: 0; width: 150px;height: 150px;} 
+
+}
